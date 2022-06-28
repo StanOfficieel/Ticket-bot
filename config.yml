@@ -1,0 +1,23 @@
+##########################
+#  DISCORD BOT SETTINGS  #
+##########################
+
+bot-token: OTgyOTU0MTg3OTIwOTMyOTA1.Gc779S.9booqdcI-KWJxD6gvydIck4pnivoGio6M8se8M
+bot-activity: "Managing the server"
+
+database:
+  host: localhost
+  port: 3306
+  databaseName: FoxCodeBot
+  user: FoxCodeBot
+  password: superSecretPassword
+
+# Unknown command handling
+remove-unknown-commands: true
+
+command-not-found-embed:
+  enabled: true
+  title: "Unknown command"
+  description: "Unknown command, try again."
+  color: 0xff0000
+  footer: "FoxCodeBot"
